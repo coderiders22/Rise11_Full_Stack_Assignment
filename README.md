@@ -14,7 +14,7 @@ This project is a replica of the dashboard provided in the attached image, built
   - ProgressBar
   - FormSection
   - DashboardLayout
-- Decided to use **React.js** for the frontend and **CSS/Tailwind CSS** for styling. No external libraries were used for layout replication to showcase pure CSS/HTML skills.
+- Decided to use **Next.js** for the frontend and **CSS/Tailwind CSS** for styling. No external libraries were used for layout replication to showcase pure CSS/HTML skills.
 
 ### **2. Implementation Steps**
 1. **Setting Up the Project**: Initialized the project using `create-react-app` for React.js.
@@ -74,7 +74,7 @@ This project is a replica of the dashboard provided in the attached image, built
 
 ## **Technology Stack**
 - **Frontend Framework**: Next.js
-- **Styling**: Tailwind CSS
+- **Styling**: Tailwind CSS/CSS
 
 ---
 
@@ -99,6 +99,19 @@ This project is a replica of the dashboard provided in the attached image, built
    ```
    http://localhost:3000
    ```
+
+---
+
+## **Screenshots**
+
+### Desktop View:
+![Desktop View](screenshots/desktop-view.png)
+
+### Tablet View:
+![Tablet View](screenshots/tablet-view.png)
+
+### Mobile View:
+![Mobile View](screenshots/mobile-view.png)
 
 ---
 
