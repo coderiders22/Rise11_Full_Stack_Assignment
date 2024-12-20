@@ -10,14 +10,14 @@ This project is a replica of the dashboard provided in the attached image, built
 ### **1. Initial Planning**
 - Carefully analyzed the attached dashboard image to identify all components (e.g., navigation menu, progress bar, input fields, buttons, etc.).
 - Broke down the design into modular and reusable components, such as:
-  - NavigationMenu
+  - Sidebar
   - ProgressBar
-  - FormSection
-  - DashboardLayout
+  - ClaimSection
+    
 - Decided to use **Next.js** for the frontend and **CSS/Tailwind CSS** for styling. No external libraries were used for layout replication to showcase pure CSS/HTML skills.
 
 ### **2. Implementation Steps**
-1. **Setting Up the Project**: Initialized the project using `create-react-app` for React.js.
+1. **Setting Up the Project**: Initialized the project using `create-next-app` for next.js.
 2. **Modular Components**:
    - Created separate folders for each component to maintain clean and organized code.
    - Followed a modular approach to ensure reusability and scalability.
@@ -36,10 +36,10 @@ This project is a replica of the dashboard provided in the attached image, built
 
 ## **Challenges Faced and Solutions**
 
-### **1. Responsiveness for Mobile Devices**
-- **Challenge**: The layout didn’t align properly for smaller screens.
+### **1. Responsiveness for tablet Devices**
+- **Challenge**: The layout didn’t align properly for medium screens.
 - **Solution**:
-  - Refactored the CSS to use a mobile-first approach with additional media queries.
+  - Refactored the CSS to use a tablet-first approach with additional media queries.
   - Adjusted padding, margins, and font sizes dynamically based on screen width.
 
 ### **2. Handling Dynamic Interactions**
@@ -58,8 +58,7 @@ This project is a replica of the dashboard provided in the attached image, built
 
 ## **Assumptions**
 - The assignment focused purely on frontend development, so no backend/API integration was included.
-- For dynamic functionality (e.g., progress bar updates), mock data was used to simulate interactions.
-- Assumed that some placeholders in the image, such as profile icons or chart data, could be replaced with static examples for demonstration purposes.
+- Assumed that some placeholders in the image, such as profile icons, could be replaced with static examples for demonstration purposes.
 
 ---
 
@@ -125,4 +124,4 @@ This project is a replica of the dashboard provided in the attached image, built
 ---
 
 ## **Conclusion**
-This project was a rewarding experience. Building the dashboard from scratch improved my attention to detail, problem-solving skills, and proficiency with React.js and CSS. It was challenging yet enjoyable to create a professional, responsive, and dynamic user interface.
+This project was a rewarding experience. Building the dashboard from scratch improved my attention to detail, problem-solving skills, and proficiency with Next.js and Tailwind CSS. It was challenging yet enjoyable to create a professional, responsive, and dynamic user interface.
