@@ -73,9 +73,8 @@ This project is a replica of the dashboard provided in the attached image, built
 ---
 
 ## **Technology Stack**
-- **Frontend Framework**: React.js
+- **Frontend Framework**: Next.js
 - **Styling**: Tailwind CSS
-- **Development Tools**: Visual Studio Code, Chrome Developer Tools
 
 ---
 
