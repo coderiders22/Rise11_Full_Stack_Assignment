@@ -16,7 +16,7 @@ const ProgressBar = () => {
     <div className={styles.progressBar}>
       {steps.map((step, index) => (
         <div key={index} className={styles.stepWrapper}>
-          {/* Connecting Lines */}
+         
           {index > 0 && (
             <div
               className={`${styles.connectingLine} ${
@@ -29,7 +29,6 @@ const ProgressBar = () => {
             />
           )}
 
-          {/* Step Circle */}
           <div
             className={`${styles.stepCircle} ${
               index < 3
@@ -42,7 +41,7 @@ const ProgressBar = () => {
             {index < 3 ? "✓" : index + 1}
           </div>
 
-          {/* Step Title */}
+      
           <div className={styles.stepTitle}>
             <span className={styles.stepNumber}>
               {String(index + 1).padStart(2, '0')}
@@ -50,7 +49,7 @@ const ProgressBar = () => {
             <span className={styles.stepName}>{step.title}</span>
           </div>
 
-          {/* Step Time */}
+   
           {step.time && <div className={styles.stepTime}>{step.time}</div>}
         </div>
       ))}

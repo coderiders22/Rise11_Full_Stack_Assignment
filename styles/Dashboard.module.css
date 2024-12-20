@@ -203,6 +203,8 @@
   .mainContent {
     flex: 1;
     padding: 20px;
+   
+    
   }
   
   
@@ -247,6 +249,7 @@
     justify-content: center;
     text-align: center;
     justify-items: center;
+
   }
   
   .stepWrapper {
