@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f8ff;
+  }
+  
+  :root {
+    --primary-color: #4f46e5;
+    --secondary-color: #e2e8f0;
+    --text-color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
